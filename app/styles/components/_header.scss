@@ -1,0 +1,15 @@
+.navbar-header .navbar-toggle {
+  float: left;
+  margin-left: 100px;
+}
+
+.language-select {
+  $height: 10px + 14px;
+  line-height: $height;
+  margin-top: 8px;
+
+  select {
+    -webkit-appearance: menulist-button;
+    height: $height;
+  }
+}
